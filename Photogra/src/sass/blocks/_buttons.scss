@@ -1,0 +1,33 @@
+.button {
+    outline:none;
+    border:none;
+    width: 125px;
+    height: 35px;
+    background: $blue;
+    border-radius: 25px;
+    text-transform: upperCase;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+    cursor:pointer;
+    transition: box-shadow .3s ease-out;
+    &:hover{
+        box-shadow: 6px 6px 20px -3px rgba(255,255,255,.7);
+        transition: all .3s ease-out;
+    } 
+    &_center {
+        display: block;
+        margin: 0 auto; 
+    }
+    &_mt34 {
+        margin-top: 34px;
+    }
+    &_mt43 {
+        margin-top: 43px;
+    }
+    &_mt51 {
+        margin-top: 51px;
+    }
+}

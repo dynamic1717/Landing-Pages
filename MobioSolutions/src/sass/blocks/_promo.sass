@@ -1,0 +1,66 @@
+.promo 
+    min-height: 900px
+    padding: 46px 0 49px 0
+    background: url(../img/main_bg.png) center (center/cover) no-repeat
+    &__wrapper
+        margin-top: 115px
+        display: flex
+        align-items: center
+    &__carousel
+        width: 1200px
+        display: flex
+    .slick-slide
+        display: flex
+    &__item
+        justify-content: space-around
+        align-items: center
+        outline: none
+    &__descr
+        width: 500px
+    &__text
+        margin-top: 40px
+        width: 515px
+        font-size: 21px
+        font-weight: normal
+        line-height: 1.62
+        color: #ffffff
+    &__video
+        width: 520px
+        height: 570px
+        iframe
+            border-radius: 50px 0
+            box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.1)
+    &__dots
+        ul
+            padding: 0 40px 0 0
+            list-style: none
+            li
+                width: 16px
+                height: 16px
+                border-radius: 50%
+                border: solid 2px #ffffff
+                margin-bottom: 17px
+                cursor: pointer
+                button
+                    display: none
+            .slick-active
+                background-color: #ffffff
+    &__arrows
+        width: 510px
+        display: flex
+        justify-content: space-between
+        margin-left: 700px
+        margin-top: 55px
+        button
+            width: 44px
+            height: 44px
+            background: none
+            outline: none
+            font-size: 20px
+            cursor: pointer
+        #prev
+            border: solid 1px #ffffff
+            color: #ffffff
+        #next
+            border: solid 1px $main_color
+            color: $main_color

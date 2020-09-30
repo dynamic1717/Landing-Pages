@@ -1,0 +1,21 @@
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: center;
+    &_black {
+        color: #393939;
+    }
+    &_before {
+        position: absolute;
+        top: 79px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 380px;
+        z-index: 10;
+    }
+    &_mt74 {
+        margin-top: 74px;
+    }
+}

@@ -1,0 +1,56 @@
+.with {
+    min-height: 896px;
+    padding: 79px 0 81px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_mt37 {
+            margin-top: 37px;
+        }
+    }
+    &__item {
+        background: url(../img/card_quiz.jpg) center (center/cover) no-repeat;
+        width: 360px;
+        height: 255px;
+        padding-bottom: 36px;
+        transition: 0.2s all;
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 192px;
+            height: 186px;
+            margin-top: 1px;
+            margin-bottom: -15px;
+        }
+        &_down {
+            background: url(../img/card_check.jpg) center (center/cover) no-repeat;
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        color: #393939;
+        text-align: center;
+        &_bold {
+            font-weight: 700;
+        }
+    }
+    &__arrows {
+        width: 170px;
+        height: 72px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    &__title {
+        margin-top: 33px;
+        font-size: 48px;
+        font-weight: 700;
+        color: #393939;
+        text-align: center;
+    }
+}

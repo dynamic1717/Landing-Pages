@@ -1,0 +1,26 @@
+.button {
+    width: 241px;
+    height: 60px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+    background-color: #00c2f0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 2px 2px 5px #00c2f0;
+        border: none;
+    }
+    &_center {
+        display: block;
+        margin: 0 auto;
+    }
+    &_mt30 {
+        margin-top: 30px;
+    }
+}

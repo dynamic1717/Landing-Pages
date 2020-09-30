@@ -1,0 +1,172 @@
+.main {
+    background: url('../img/promo_bg_shapes.jpg') center (center/cover) no-repeat;
+    min-height: 1815px;
+    padding: 0 0 75px 0;
+    .header {
+        display:flex;
+        justify-content:space-between;
+        .logo {
+            &__icon {
+                padding-top: 17px;
+                padding-left: 183px;  
+                position: relative;
+                z-index: 5; 
+            }
+            &__shape {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 0;
+            }
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 510px;
+            padding-right: 175px;
+            z-index: 4;
+            &__item {
+                list-style-type: none;
+                a {
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: $black;
+                    &:hover {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+    
+    .promo {
+        position: relative;
+        &__item {
+            position: absolute;
+            &__rhombBlack {
+                top: 226px;
+                left: 359px;
+                z-index: 5;
+            }
+            &__rhombBlue {
+                top: 686px;
+                left: 600px;
+                z-index: 4;
+            }
+            &__rhombSmall {
+                top: 230px;
+                left: 760px;
+                z-index: 3;
+                img {
+                    width: 104px;
+                    height: 104px;
+                }
+            }
+            &__photoMain {
+                right: 150px;
+                z-index: 1;
+            }
+            &__photoSecond {
+                top: 710px;
+                right: 390px;
+                z-index: 2;
+            }
+        }
+    }
+    
+    .rhomb {
+        position: relative;
+        &__descr {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 256px;
+        }
+        &__title {
+            font-size: 34px;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+            color: $blue;
+            &_second {
+                font-size: 24.5px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+        }
+        &__text {
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #ffffff;
+            &_mt25 {
+                margin-top: 25px;
+            }
+        }
+        &__number {
+            font-size: 82px;
+            font-weight: 900;
+            color: #fefefe;
+            text-align: center;
+        }
+    }
+    
+    .why {
+        margin-top: 1366px;
+        &__title {
+            font-size: 38px;
+            font-weight: 900;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &__subtitle {
+            margin-top: 21px;
+            font-size: 24.5px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &__wrapper {
+            margin: 0 auto;
+            margin-top: 56px;
+            width: 789px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__item {
+            width: 322px;
+            height: 203px;
+            background-color: rgba($color: #454545, $alpha: 0.5);
+            &:nth-child(2) {
+                background: none;
+                width: 20px;
+                height: 127px;
+            }
+        }
+        &__descr {
+            width: 261px;
+            margin-left: 33px;
+            &__title {
+                font-size: 26.5px;
+                font-weight: 700;
+                color: #ffffff;
+                text-transform: uppercase;
+                margin-top: 40px;
+            }
+            &__text {
+                font-size: 14px;
+                font-weight: 500;
+                color: #ffffff;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+

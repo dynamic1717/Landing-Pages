@@ -1,0 +1,41 @@
+.rhombWithNumber {
+    position: absolute;
+    left: 19%;
+    transform: translate(0, -85%);
+    &_small {
+        left: 50%;
+        top: 105px;
+        transform: translate(-50%, 0);
+    }
+    &_top30 {
+        top: 30px;
+    }
+    &__shape {
+        position: relative;
+        img {
+            width: 269px;
+            height: 269px;
+            opacity: 0.9;
+        }
+        &_small {
+            img {
+                width: 164px;
+                height: 164px;
+            }
+        }
+    }
+    &__number {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-35%, -50%);
+        font-size: 82px;
+        font-weight: 900;
+        letter-spacing: 2.05px;
+        color: $blue;
+        &_small {
+            font-size: 64px;
+            letter-spacing: 1.6px;
+        }
+    } 
+}

@@ -1,0 +1,28 @@
+.header {
+    min-height: 85px;
+    padding: 19px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        justify-content: start;
+    }
+    &__flag {
+        width: 28px;
+        height: 21px;
+        margin-right: 11px;
+        margin-top: 4px;
+    }    
+    &__address, a {
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+        span {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}

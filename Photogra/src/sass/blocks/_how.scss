@@ -1,0 +1,33 @@
+.how {
+    min-height: 300px;
+    padding: 222px 0 156px 0;
+    background: url(../img/how_bg.jpg) center (center/cover) no-repeat;
+    position: relative;
+    &__wrapper {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 30px;
+    }
+    &__descr {
+        width: 222px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+        span {
+            font-size: 17px;
+            font-weight: 700;
+            color: $blue;
+            text-transform: uppercase;
+        }
+    }
+}

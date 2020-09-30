@@ -1,0 +1,50 @@
+.footer {
+    min-height: 500px;
+    padding: 49px 0 40px 0;
+    background-color: #0082a1;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__logo {
+        width: 177px;
+        height: 61px;
+        margin-top: 15px;
+    }
+    &__text {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.36;
+        color: #ffffff;
+        width: 377px;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        margin-top: 4px;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    hr {
+        opacity: 0.3;
+        margin: 44px 0 36px 0;
+    }
+    &__rights {
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,40 @@
+.feedback {
+    padding-bottom: 71px;
+    &__item {
+        display: flex;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__text {
+        margin-left: 62px;
+        padding-right: 60px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 500;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+    }
+    hr {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        border-bottom: none;
+        background-color: #F6F6F6;
+    }
+}

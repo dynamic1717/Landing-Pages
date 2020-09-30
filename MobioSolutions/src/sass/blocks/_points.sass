@@ -1,0 +1,63 @@
+.points
+    min-height: 550px
+    padding: 75px 0
+    background-color: $main_color
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__content
+        color: #ffffff
+    &__point
+        display: flex
+        margin-top: 55px
+        cursor: pointer
+    &__shape
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-right: 35px
+        width: 33px
+        height: 33px
+        background-color: rgba(255, 255, 255, 0.2)
+        border-radius: 50%
+        font-size: 20px
+        font-weight: normal
+        color: #ffffff
+        transition-duration: 0.5s
+        &::before
+            content: ''
+            position: absolute
+            width: 41px
+            height: 41px
+            background-color: rgba(255, 255, 255, 0.1)
+            border-radius: 50%
+        &_active
+            color: #2068b0
+            background-color: #ffffff
+    &__divider
+        position: absolute
+        top: 50px
+        border-radius: 2px
+        width: 4px
+        height: 21px
+        background-color: rgba(255, 255, 255, 0.1)
+    &__point-title
+        font-size: 20px
+        font-weight: normal
+        line-height: 1.6
+        color: rgba(255, 255, 255, 0.6)
+        &:hover
+            color: rgba(255, 255, 255, 0.9)
+        &_active
+            color: #ffffff
+    &__point-text
+        margin-top: 30px
+        font-size: 16px
+        font-weight: normal
+        width: 550px
+    &__image
+        width: 800px
+        img
+            width: 100%

@@ -1,0 +1,114 @@
+.news
+    min-height: 1000px
+    padding: 100px 0
+    background-color: #ffffff
+    &__wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+    &__column-left
+        margin-right: 30px
+        width: 530px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 1000px
+    &__column-right
+        width: 760px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 1000px
+    &__descr
+        margin-top: 40px
+        width: 530px
+    &__text
+        font-size: 16px
+        font-weight: normal
+        line-height: 1.67
+        color: rgba(12, 12, 12, 0.7)
+        margin-top: 30px
+
+.card
+    width: 100%
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.1)
+    &__img
+        position: relative
+        img
+            width: 100%
+            transition: all 0.3s ease-in-out
+        button
+            display: none
+        .card__views
+            display: none
+        &:hover
+            img
+                filter: brightness(50%)
+            button
+                display: block
+            .card__views
+                display: block
+    &__share
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%,-50%)
+        width: 135px
+        height: 42px
+        border-radius: 21px
+        border: none
+        background-color: #ffffff
+        cursor: pointer
+        font-size: 16px
+        font-weight: normal
+        color: #0c0c0c
+        text-align: center
+    &__date
+        position: absolute
+        top: 20px
+        left: 20px
+        width: 58px
+        height: 82px
+        background-color: $main_color
+        color: #ffffff
+        font-size: 16px
+        font-weight: normal
+        text-align: center
+        padding: 0 4px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        hr
+            opacity: 0.5
+    &__views
+        position: absolute
+        bottom: 20px
+        left: 20px
+        width: 90px
+        height: 30px
+        border-radius: 15px
+        background-color: rgba(255, 255, 255, 0.3)
+        color: #ffffff
+        text-align: center
+        font-size: 16px
+        font-weight: normal
+    &__body
+        padding: 30px
+    &__hashtag
+        text-transform: uppercase
+        font-size: 12px
+        font-weight: normal
+        a
+            text-decoration: none
+            color: $main_color
+    &__title
+        font-size: 16px
+        font-weight: bold
+        color: #0c0c0c
+        line-height: 2.22
+    &__text
+        font-size: 16px
+        font-weight: normal
+        color: rgba(12, 12, 12, 0.7)
+        margin-top: 15px
